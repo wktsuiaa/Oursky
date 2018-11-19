@@ -18,7 +18,8 @@ int main() {
 	cout<<isSubset(t_1, s_1)<<endl;
 	cout << isSubset(t_2, s_2) << endl;
 	cout << isSubset(t_3, s_3) << endl;
-
+	
+	return 0;
 }
 
 bool isSubset(const vector<char> & t, const vector<char> & s) {
